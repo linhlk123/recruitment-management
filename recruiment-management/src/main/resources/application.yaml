@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: QLITUYENDUNG
+    password: Admin123
+    driver-class-name: oracle.jdbc.OracleDriver
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    enabled: true
+    cache: false
+    mode: HTML
+
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+
+# Optional: server port
+server:
+  port: 8080
