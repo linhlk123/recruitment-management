@@ -6,7 +6,7 @@ Hệ thống Website Quản lý Tuyển Dụng giúp các doanh nghiệp đăng 
 ## 2. Môi trường phát triển
 - **Ngôn ngữ lập trình**: Java, JavaScript
 - **Framework**: Spring Boot, Thymeleaf
-- **Cơ sở dữ liệu**: MySQL
+- **Cơ sở dữ liệu**: PL/SQL
 - **Công cụ**: Maven, Git
 - **API**: LinkedIn API
 - **Công cụ AI**: Được tích hợp để đề xuất ứng viên phù hợp.
